@@ -315,7 +315,6 @@ with st.sidebar:
         f'<br><br>Industry: <b>{INDUSTRY}</b><br>'
         f'Stocks: <b>{len(STOCKS)}</b><br>'
         f'Period: <b>Jul 2015 – Jun 2025</b><br>'
-        /*f'Anomaly Threshold: <b>|z| > {R["anomaly_threshold"]}</b>'*/
         f'</div>',
         unsafe_allow_html=True
     )
